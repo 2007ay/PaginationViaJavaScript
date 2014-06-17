@@ -1,0 +1,23 @@
+#paginatinBar a {
+    padding: 2px;
+    float: left;
+    border: 1px solid gray;
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.active_page {
+    background: darkblue;
+    color: white !important;
+}
+.page-link {
+    width: 23px;
+    text-align: center;
+    text-justify: inherit;
+    text-overflow: ellipsis;
+}
+.move-page {
+    width: 40px;
+    text-align: center;
+}
